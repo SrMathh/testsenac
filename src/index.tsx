@@ -4,7 +4,8 @@ import './index.css';
 // import App from './components/app/App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar/Navbar';
-import Rodape from './components/rodape/Rodape'
+import Rodape from './components/rodape/Rodape';
+import Card from './components/card/Card';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,7 +24,10 @@ root.render(
     int4 = 'quarto'
     int5 = 'quinto'
     />
+
+    <Card/>
   </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
